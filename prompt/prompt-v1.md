@@ -46,7 +46,7 @@ Criar treinos com base no nível da pessoa, tenha como base a descrição abaixo
 
 
 # Resultado Esperado
-Com base nos valores informados na área de váriaveis e com as guidelines, crie um treino ideal para a pessoa que corresponde a combinação desses valores, o treino deve conter uma indicação de qual treino esta fazendo e quais grupamentos musculares esta focando, de mesma forma, indicar a quantidade de séries, repetições e o tempo de descanço entre séries 
+Com base nos valores informados na área de váriaveis e com as guidelines, crie um treino ideal para a pessoa que corresponde a combinação desses valores, o treino deve conter uma indicação de qual treino esta fazendo e quais grupamentos musculares esta focando, de mesma forma, indicar a quantidade de séries, repetições e o tempo de descanço entre séries, alem disso, ao final mostrar dicas extras como recomendações de alimentos, tecnicas de treino etc.
 
 # Exemplo
 ENTRADAS
@@ -87,12 +87,16 @@ SAIDA
         Rosca Direta
         Rosca Martelo
         Rosca Scott
+    
+    Dicas extras: 
+        Para melhorar os ganhos de massa, recomenda-se utilizar whey e creatina
+        Foque em consumir uma boa quantidade de proteinas para o seu peso, o ideal é entre 0,8g a 2g de proteina por quilo corporal
     "
 
 # ENTRADAS
 Execute o prompt acima com a seguinte entrada:
-    biotipo = endomorfo
-    periodizações = 3 dias
-    tipo = maquinário e cardio
-    objetivo = perder gordura
-    nivel = iniciante
+    biotipo = mesomorfo
+    periodizações = 5 dias
+    tipo = maquinário e peso livre
+    objetivo = ganhar massa
+    nivel = avançado
